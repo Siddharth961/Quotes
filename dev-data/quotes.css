@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: #F1F5F8;
+    letter-spacing: 2px;
+    line-height: 22px;
+    
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+h1{
+    font-family: "Roboto",sans-serif;
+    font-size: 44px;
+    color: #102a42;
+    
+}
+
+
+
+.line{
+    background-color: #49A6E9;
+    border: 2px solid #49A6E9;
+    border-radius: 2px;
+    width: 12vh;
+    margin-top: 6px;
+
+}
+.container{
+    /* border: 2px solid green; */
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    /* border: 1px solid black; */
+    border-radius: 6px;
+    width: 60vh;
+    padding: 2vh 6vh;
+
+    text-align: center;
+
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.132);
+}
+
+.main .image{
+    
+    min-width: 20vh;
+    min-height: 20vh;
+   
+    background-color: #49A6E9;
+    
+    border-radius: 50%;
+}
+.main h4{
+    color: #102a42;
+    font-family: "Roboto",sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.main h5{
+    color: #49a6e9;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin:0px
+}
+
+.main p{
+    color: #617d98;
+    font-size: 16px;
+}
+
+.bi{
+    color: #49A6E9;
+    font-size: 40px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.id1 .image .aimage{
+    background: url("https://i.pinimg.com/736x/da/85/62/da85621518cf93a6dde90221a36f5515--grim-reaper-hats.jpg");
+    min-width: 20vh;
+    min-height: 20vh;
+    overflow:hidden;
+    /* background-color: #49A6E9; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    transform: translate(-6%,4%);
+}
+
+
+
+
+
